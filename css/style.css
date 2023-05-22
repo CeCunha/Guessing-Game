@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+html {
+	font-family: sans-serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3D000F;
+    margin: 40px 20px 20px 20px;
+    font-size: 1.5rem;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.guess-label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3D000F;
+    margin: 20px 20px 20px 20px;
+    font-size: 3rem;
+    font-weight: bolder;
+
+
+
+}
+
+.guess-input{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 2.8rem;
+    border-radius: 100%;
+    border-color: #3D000F;
+    border-style: dotted;
+    font-weight: bolder;
+    margin-bottom: 30px;
+
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#img2{
+    display: none;
+}
+#img3{
+    display: none;
+}
+#img4{
+    display: none;
+}
+
+
+
+#guesses{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    display: inline;
+}
+
+#lastResult {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#lowOrHi{
+    color: GREEN;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+  
+}
+
+#label-guesses{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    display: inline;
+
+}
+
+.col-md-6.left{
+    /* height: 500px;
+    background-image:url(/image/game-background.jpg); */
+    text-align: center;
+    background-color: black;
+    padding: 20px 0 40px 0;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    position: relative; */
+}
+
+.col-md-6.right{
+background-color: #F6F8DD;
+text-align: center;
+}
+
+
+.game-background{
+    /* position: absolute; */
+    width: 70%;
+}
+
+
+.teste{
+    position: absolute;
+    width:50%;
+    /* background-color: bisque; */
+}
+
+.pos1{
+    width: 17%;
+}
+
+@media only screen and (max-width:600px) {
+    .pos1{
+        width: 33%;
+        margin-left: 85%;
+
+    }
+    
+}
+
+
+
+.game-logo{
+    width: 50%;
+    margin-top: 40px;
+}
+
+.pannel1{
+    width: 33%;
+}
+.btn-outline-success{
+    display: none;
+}
+
+#cesar{
+    display:none;
+
+}
