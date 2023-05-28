@@ -9,7 +9,6 @@ h1{
     color: #3D000F;
     margin: 40px 20px 20px 20px;
     font-size: 1.5rem;
-    
 }
 
 body{
@@ -20,11 +19,8 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3D000F;
     margin: 20px 20px 20px 20px;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bolder;
-
-
-
 }
 
 .guess-input{
@@ -37,8 +33,6 @@ body{
     border-style: dotted;
     font-weight: bolder;
     margin-bottom: 30px;
-
-    
 }
 
 input::-webkit-outer-spin-button,
@@ -46,19 +40,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-
-#img2{
-    display: none;
-}
-#img3{
-    display: none;
-}
-#img4{
-    display: none;
-}
-
-
 
 #guesses{
     color: red;
@@ -96,64 +77,66 @@ input::-webkit-inner-spin-button {
 
 }
 
-.col-md-6.left{
-    /* height: 500px;
-    background-image:url(/image/game-background.jpg); */
+.col-md-12.right{
     text-align: center;
     background-color: black;
     padding: 20px 0 40px 0;
-    /* background-position: center; */
     background-repeat: no-repeat;
-    /* background-size: cover;
-    position: relative; */
 }
 
-.col-md-6.right{
+.col-md-12.left{
 background-color: #F6F8DD;
 text-align: center;
+padding: 0;
 }
 
-
 .game-background{
-    /* position: absolute; */
     width: 70%;
 }
 
-
-.teste{
+.position-boy{
     position: absolute;
     width:50%;
-    /* background-color: bisque; */
 }
 
 .pos1{
     width: 17%;
 }
 
-@media only screen and (max-width:600px) {
-    .pos1{
-        width: 33%;
-        margin-left: 85%;
-
-    }
-    
-}
-
-
-
 .game-logo{
-    width: 50%;
+    width: 30%;
     margin-top: 40px;
 }
 
-.pannel1{
-    width: 33%;
-}
 .btn-outline-success{
     display: none;
 }
 
-#cesar{
-    display:none;
-
+span{
+    color: red;
+    font-weight: bolder;
 }
+
+.feedback{
+    margin: 0;
+}
+
+#lowOrHi, #lastResult, #guesses{
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#gameover{
+    display: none;
+    padding: 10px 0 10px 0;
+    font-size: 2rem;
+    color: red;
+    font-weight: bolder;
+}
+
+@media (min-width:0px) and (max-width:912px) {
+    .pos1{
+        width: 33%;
+        margin-left: 85%;
+    }
+}​
